@@ -7,18 +7,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.sql.Date;
-
 @Data
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Weather {
+public class x_ {
 
     @Id
     @GeneratedValue
     private Integer id;
-    private String city_name;
+    /*private String city_name;
     private String current_weather;
     private String weather_forecast;
 
@@ -52,5 +50,5 @@ public class Weather {
 
     public void setWeather_forecast(String weather_forecast) {
         this.weather_forecast = weather_forecast;
-    }
+    } */
 }
